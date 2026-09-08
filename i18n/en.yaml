@@ -1,12 +1,14 @@
 AC2D20.Ability.agi: Agility
 AC2D20.Ability.bra: Brawn
 AC2D20.Ability.coo: Coordination
+AC2D20.Ability.gra: Gravitas
 AC2D20.Ability.ins: Insight
 AC2D20.Ability.rea: Reason
 AC2D20.Ability.wil: Will
 AC2D20.AbilityAbbr.agi: agi
 AC2D20.AbilityAbbr.bra: bra
 AC2D20.AbilityAbbr.coo: coo
+AC2D20.AbilityAbbr.gra: gra
 AC2D20.AbilityAbbr.ins: ins
 AC2D20.AbilityAbbr.rea: rea
 AC2D20.AbilityAbbr.wil: wil
