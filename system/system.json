@@ -69,9 +69,9 @@
 	],
 	"packFolders": [
 		{
-			"name": "Achtung! Cthulhu 2d20",
+			"name": "Cohors! Cthulhu 2d20",
 			"sorting": "a",
-			"color": "#494e32",
+			"color": "#791d2a",
 			"packs": [
 				"macros",
 				"skills",
