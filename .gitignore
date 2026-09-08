@@ -8,4 +8,4 @@ system/packs/
 .env
 *.code-workspace
 *.swp
-ac2d20-compiled*
+cc2d20-compiled*

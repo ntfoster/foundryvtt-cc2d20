@@ -11,8 +11,8 @@ export default class ACActorSheet
 	/** @override */
 	static get defaultOptions() {
 		return foundry.utils.mergeObject(super.defaultOptions, {
-			classes: ["ac2d20", "sheet", "actor"],
-			template: "systems/ac2d20/templates/actor/actor-sheet.hbs",
+			classes: ["cc2d20", "sheet", "actor"],
+			template: "systems/cc2d20/templates/actor/actor-sheet.hbs",
 			width: 720,
 			height: 880,
 			dragDrop: [{dragSelector: ".item", dropSelector: null}],
@@ -26,7 +26,7 @@ export default class ACActorSheet
 
 	/** @override */
 	get template() {
-		return `systems/ac2d20/templates/actor/actor-${this.actor.type}-sheet.hbs`;
+		return `systems/cc2d20/templates/actor/actor-${this.actor.type}-sheet.hbs`;
 	}
 
 	/** @inheritdoc */
@@ -240,7 +240,7 @@ export default class ACActorSheet
 			i.img = i.img || DEFAULT_TOKEN;
 			// Append to gear.
 			if (i.type === "skill") {
-				i.localizedName = ac2d20.utils.getLocalizedSkillName(i.name);
+				i.localizedName = cc2d20.utils.getLocalizedSkillName(i.name);
 				skills.push(i);
 			}
 			else if (i.type === "talent") {
@@ -318,7 +318,7 @@ export default class ACActorSheet
 			const complication = 20 - this.actor.system.injuries.value;
 
 			const attrName = game.i18n.localize(`AC2D20.Ability.${attr}`);
-			game.ac2d20.Dialog2d20.createDialog({ rollName: `Roll ${attrName}`, diceNum: 2, attribute: attribute.value, skill: 0, focus: false, complication: complication });
+			game.cc2d20.Dialog2d20.createDialog({ rollName: `Roll ${attrName}`, diceNum: 2, attribute: attribute.value, skill: 0, focus: false, complication: complication });
 		});
 
 		// * SKILLS LISTENERS [clic, right-click, value change, focus ]
@@ -411,7 +411,7 @@ export default class ACActorSheet
 				prefAttribute = "wil";
 			}
 
-			ac2d20.Dialog2d20.createDialog({
+			cc2d20.Dialog2d20.createDialog({
 				rollName: item.name,
 				diceNum: 2,
 				attribute: -1,
@@ -433,8 +433,8 @@ export default class ACActorSheet
 			const item = this.actor.items.get(li.data("itemId"));
 			const cost = parseInt(item.system.cost);
 
-			game.ac2d20.DialogD6.createDialog({
-				ac2d20Roll: null,
+			game.cc2d20.DialogD6.createDialog({
+				cc2d20Roll: null,
 				actorId: this.actor._id,
 				diceNum: cost,
 				itemId: itemId,
@@ -486,7 +486,7 @@ export default class ACActorSheet
 			// weaponType is actualy attribute abrevation
 			const prefAttribute = item.system.weaponType;
 
-			game.ac2d20.Dialog2d20.createDialog({
+			game.cc2d20.Dialog2d20.createDialog({
 				actor: this.actor.system,
 				actorId: this.actor._id,
 				attribute,
@@ -511,10 +511,10 @@ export default class ACActorSheet
 			else if (item.system.weaponType === "coo") stressBonus = item.actor.system.attributes.ins.bonus;
 			else if (item.system.weaponType === "wil") stressBonus = item.actor.system.attributes.wil.bonus;
 			let stress = parseInt(item.system.stress) + parseInt(stressBonus);
-			game.ac2d20.DialogD6.createDialog({
+			game.cc2d20.DialogD6.createDialog({
 				rollName: item.name,
 				diceNum: stress,
-				ac2d20Roll: null,
+				cc2d20Roll: null,
 				itemId: itemId,
 				actorId: this.actor._id,
 			});
@@ -550,7 +550,7 @@ export default class ACActorSheet
 		html.find(".roll-impact.clickable").click(event => {
 			event.preventDefault();
 			const impact = this.actor.system.impact;
-			game.ac2d20.DialogD6.createDialog({ rollName: `${this.actor.name} Impact`, diceNum: impact, ac2d20Roll: null });
+			game.cc2d20.DialogD6.createDialog({ rollName: `${this.actor.name} Impact`, diceNum: impact, cc2d20Roll: null });
 		});
 
 		// * CLICK TO EXPAND
@@ -737,7 +737,7 @@ export default class ACActorSheet
 		let focus = false;
 
 		if (focusName !== "") {
-			localizedFocusName = ac2d20.utils.getLocalizedFocusName(focusName);
+			localizedFocusName = cc2d20.utils.getLocalizedFocusName(focusName);
 
 			for (const skillFocus of skillItem.system.focuses) {
 				if (skillFocus.title === focusName) {
@@ -750,13 +750,13 @@ export default class ACActorSheet
 		const complication = 20 - this.actor.system.injuries.value;
 
 		const localizedSkillName =
-			ac2d20.utils.getLocalizedSkillName(skillItem.name);
+			cc2d20.utils.getLocalizedSkillName(skillItem.name);
 
 		const rollName = focusName !== ""
 			? `${localizedFocusName} (${localizedSkillName})`
 			: localizedSkillName;
 
-		ac2d20.Dialog2d20.createDialog({
+		cc2d20.Dialog2d20.createDialog({
 			actor: this.actor.system,
 			attribute: -1,
 			complication,
@@ -799,7 +799,7 @@ export default class ACActorSheet
 		event.preventDefault();
 		const actorUuid = this.actor.uuid;
 
-		ac2d20.dialogs.DialogEditTruth.createDialog({actorUuid});
+		cc2d20.dialogs.DialogEditTruth.createDialog({actorUuid});
 	}
 
 	async _onTruthDelete(data) {
@@ -817,7 +817,7 @@ export default class ACActorSheet
 		const index = data.truthIndex;
 		const truth = currentTruths[index];
 
-		ac2d20.dialogs.DialogEditTruth.createDialog({actorUuid, index, truth});
+		cc2d20.dialogs.DialogEditTruth.createDialog({actorUuid, index, truth});
 	}
 
 

@@ -1,4 +1,4 @@
-export const SYSTEM_ID = "ac2d20";
+export const SYSTEM_ID = "cc2d20";
 export const SYSTEM_NAME = "Achtung! Cthulhu 2d20";
 
 export const AC2D20 = {};
@@ -31,15 +31,15 @@ AC2D20.ARMOR_QUALITIES = {
 };
 
 AC2D20.DEFAULT_TOKENS = {
-	character: "systems/ac2d20/assets/doc-icons/character.svg",
-	npc: "systems/ac2d20/assets/doc-icons/npc.svg",
-	vehicle: "systems/ac2d20/assets/doc-icons/vehicle.svg",
+	character: "systems/cc2d20/assets/doc-icons/character.svg",
+	npc: "systems/cc2d20/assets/doc-icons/npc.svg",
+	vehicle: "systems/cc2d20/assets/doc-icons/vehicle.svg",
 };
 
 AC2D20.ITEM_COMPENDIUMS = {};
 
 AC2D20.JOURNAL_UUIDS = {
-	releaseNotes: "Compendium.ac2d20.system_documentation.JournalEntry.Q2jykbXOXgzNpcSR",
+	releaseNotes: "Compendium.cc2d20.system_documentation.JournalEntry.Q2jykbXOXgzNpcSR",
 };
 
 AC2D20.Size = ["Trivial", "Minor", "Major"];
@@ -170,7 +170,7 @@ export async function generateEnrichedTooltips() {
 }
 
 export async function prepareSkills() {
-	let packSkills = await game.packs.get("ac2d20.skills").getDocuments();
+	let packSkills = await game.packs.get("cc2d20.skills").getDocuments();
 
 	let _skills = [];
 

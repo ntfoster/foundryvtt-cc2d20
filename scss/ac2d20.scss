@@ -2,16 +2,16 @@
 @use "global";
 @use "utils";
 
-.ac2d20 {
+.cc2d20 {
 	@include meta.load-css('components');
 }
 
-.ac2d20.sheet.actor {
+.cc2d20.sheet.actor {
 	min-width: 800px;
 }
-.ac2d20.sheet.npc {
+.cc2d20.sheet.npc {
 	min-width: 550px;
 }
-.ac2d20.sheet.vehicle {
+.cc2d20.sheet.vehicle {
 	min-width: 550px;
 }

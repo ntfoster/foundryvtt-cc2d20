@@ -4,7 +4,7 @@ export const registerHandlebarsHelpers = function() {
 	/*  GENERAL HELPERS                             */
 	/* -------------------------------------------- */
 	Handlebars.registerHelper("activeEffectIcon", effect => {
-		return ac2d20.utils.foundryMinVersion(12)
+		return cc2d20.utils.foundryMinVersion(12)
 			? effect.img
 			: effect.icon;
 	});
@@ -201,7 +201,7 @@ export const registerHandlebarsHelpers = function() {
 		const focuses = {};
 
 		for (const focus of skill.focuses) {
-			focuses[focus] = ac2d20.utils.getLocalizedFocusName(focus);
+			focuses[focus] = cc2d20.utils.getLocalizedFocusName(focus);
 		}
 
 		return focuses;
@@ -267,8 +267,8 @@ export const registerHandlebarsHelpers = function() {
 
 		const focuses = foundry.utils.duplicate(skill?.system?.focuses ?? [])
 			.sort((a, b) => {
-				const aTitle = ac2d20.utils.getLocalizedFocusName(a.title);
-				const bTitle = ac2d20.utils.getLocalizedFocusName(b.title);
+				const aTitle = cc2d20.utils.getLocalizedFocusName(a.title);
+				const bTitle = cc2d20.utils.getLocalizedFocusName(b.title);
 
 				return aTitle.localeCompare(bTitle);
 			});
@@ -287,7 +287,7 @@ export const registerHandlebarsHelpers = function() {
 			resultHtml.dataset.itemId = skill._id;
 			resultHtml.dataset.tooltip = tooltip;
 
-			resultHtml.innerHTML = ac2d20.utils.getLocalizedFocusName(focus.title);
+			resultHtml.innerHTML = cc2d20.utils.getLocalizedFocusName(focus.title);
 
 			elements.push(resultHtml.outerHTML);
 		}

@@ -4,7 +4,7 @@ import { renderChatMessageHTMLHook } from "../hooks/renderChatMessageHTMLHook.mj
 
 export const ACHooks = {
 	attach: () => {
-		ac2d20.logger.debug("Attaching hooks");
+		cc2d20.logger.debug("Attaching hooks");
 
 		const listeners = [
 			readyHook,

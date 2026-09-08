@@ -21,7 +21,7 @@ export default class MomentumTrackerV2
 
 
 	async #onChange(event, form, formData) {
-		ac2d20.debug("MomentumTrackerV2::#onChange");
+		cc2d20.debug("MomentumTrackerV2::#onChange");
 
 		const gmMomentum = game.settings.get(SYSTEM_ID, "gmMomentum");
 		const partyMomentum = game.settings.get(SYSTEM_ID, "partyMomentum");
@@ -44,7 +44,7 @@ export default class MomentumTrackerV2
 
 
 	static async #onSubmit(event, form, formData) {
-		ac2d20.debug("MomentumTrackerV2::#onSubmit");
+		cc2d20.debug("MomentumTrackerV2::#onSubmit");
 		if (event.type === "change") {
 			return this.#onChange(event, form, formData);
 		}
@@ -74,7 +74,7 @@ export default class MomentumTrackerV2
 		},
 		id: "tracker",
 		tag: "form",
-		classes: ["ac2d20", "momentum-tracker"],
+		classes: ["cc2d20", "momentum-tracker"],
 		window: {
 			frame: false,
 			positioned: false,

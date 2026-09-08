@@ -10,7 +10,7 @@ export default class ACItemSheet
 	/** @override */
 	static get defaultOptions() {
 		return foundry.utils.mergeObject(super.defaultOptions, {
-			classes: ["ac2d20", "sheet", "item"],
+			classes: ["cc2d20", "sheet", "item"],
 			width: 520,
 			height: 560,
 			tabs: [{
@@ -24,7 +24,7 @@ export default class ACItemSheet
 
 	/** @override */
 	get template() {
-		const path = "systems/ac2d20/templates/item";
+		const path = "systems/cc2d20/templates/item";
 		return `${path}/item-${this.item.type}-sheet.hbs`;
 	}
 

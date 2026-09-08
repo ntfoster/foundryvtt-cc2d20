@@ -13,7 +13,7 @@ export default class DialogEditTruth extends Dialog {
 		};
 
 		const html = await foundry.applications.handlebars.renderTemplate(
-			"systems/ac2d20/templates/dialogs/edit-truth.hbs",
+			"systems/cc2d20/templates/dialogs/edit-truth.hbs",
 			dialogData
 		);
 
@@ -60,7 +60,7 @@ export default class DialogEditTruth extends Dialog {
 							actor.update({"system.truths": currentTruths});
 						}
 						else {
-							ac2d20.logger.error("Truth index out of range");
+							cc2d20.logger.error("Truth index out of range");
 						}
 					},
 				},

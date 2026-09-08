@@ -36,7 +36,7 @@ export default class Combat2d20 extends Combat {
 
 		if (proceed) {
 			if (this.shouldUpdateMomentum && this.started) {
-				ac2d20.apps.MomentumTrackerV2.changeCounter(-1, "partyMomentum");
+				cc2d20.apps.MomentumTrackerV2.changeCounter(-1, "partyMomentum");
 
 				ui.notifications.info(
 					game.i18n.localize("AC2D20.Combat.CombatEndMomentumPoolDecremented")
@@ -51,7 +51,7 @@ export default class Combat2d20 extends Combat {
 		this.turn = null;
 
 		if (this.shouldUpdateMomentum) {
-			ac2d20.apps.MomentumTrackerV2.changeCounter(-1, "partyMomentum");
+			cc2d20.apps.MomentumTrackerV2.changeCounter(-1, "partyMomentum");
 
 			ui.notifications.info(
 				game.i18n.localize("AC2D20.Combat.CombatRoundMomentumPoolDecremented")

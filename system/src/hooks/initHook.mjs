@@ -31,7 +31,7 @@ export async function initHook() {
 
 	// Add utility classes to the global game object so that they're more easily
 	// accessible in global contexts.
-	globalThis.ac2d20 = game.ac2d20 = {
+	globalThis.cc2d20 = game.cc2d20 = {
 		apps,
 		dialogs,
 		Dialog2d20,
@@ -85,7 +85,7 @@ function registerDocumentClasses() {
 
 function registerDocumentSheets() {
 	foundry.documents.collections.Actors.registerSheet(
-		"ac2d20",
+		"cc2d20",
 		sheets.ACActorSheet,
 		{
 			makeDefault: true,
@@ -94,7 +94,7 @@ function registerDocumentSheets() {
 	);
 
 	foundry.documents.collections.Actors.registerSheet(
-		"ac2d20",
+		"cc2d20",
 		sheets.ACNPCSheet,
 		{
 			makeDefault: true,
@@ -103,7 +103,7 @@ function registerDocumentSheets() {
 	);
 
 	foundry.documents.collections.Actors.registerSheet(
-		"ac2d20",
+		"cc2d20",
 		sheets.ACVehicleSheet,
 		{
 			makeDefault: true,
@@ -111,7 +111,7 @@ function registerDocumentSheets() {
 		}
 	);
 
-	foundry.documents.collections.Items.registerSheet("ac2d20",
+	foundry.documents.collections.Items.registerSheet("cc2d20",
 		sheets.ACItemSheet,
 		{
 			makeDefault: true,
