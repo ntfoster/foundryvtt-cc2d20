@@ -13,7 +13,7 @@
 		"focuses": [
 			{
 				"isfocus": false,
-				"title": "Hand-to-Hand"
+				"title": "Archery"
 			},
 			{
 				"isfocus": false,
@@ -21,27 +21,15 @@
 			},
 			{
 				"isfocus": false,
-				"title": "Handguns"
+				"title": "Thrown Weapons"
 			},
 			{
 				"isfocus": false,
-				"title": "Close Quarters"
+				"title": "Unarmed"
 			},
 			{
 				"isfocus": false,
-				"title": "Rifles"
-			},
-			{
-				"isfocus": false,
-				"title": "Heavy Weapons"
-			},
-			{
-				"isfocus": false,
-				"title": "Threat Awareness"
-			},
-			{
-				"isfocus": false,
-				"title": "Exotic"
+				"title": "War Magic"
 			}
 		],
 		"summary": "",

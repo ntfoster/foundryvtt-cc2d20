@@ -13,14 +13,6 @@
 		"focuses": [
 			{
 				"isfocus": false,
-				"title": "Art"
-			},
-			{
-				"isfocus": false,
-				"title": "Cryptography"
-			},
-			{
-				"isfocus": false,
 				"title": "Finance"
 			},
 			{
@@ -33,11 +25,11 @@
 			},
 			{
 				"isfocus": false,
-				"title": "Occultism"
+				"title": "Philosophy"
 			},
 			{
 				"isfocus": false,
-				"title": "Science"
+				"title": "Religion"
 			}
 		],
 		"summary": "",

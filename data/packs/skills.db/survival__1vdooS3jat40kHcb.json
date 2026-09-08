@@ -17,6 +17,10 @@
 			},
 			{
 				"isfocus": false,
+				"title": "Boating"
+			},
+			{
+				"isfocus": false,
 				"title": "Foraging"
 			},
 			{
@@ -29,11 +33,15 @@
 			},
 			{
 				"isfocus": false,
-				"title": "Orienteering"
+				"title": "Navigation"
 			},
 			{
 				"isfocus": false,
 				"title": "Tracking"
+			},
+			{
+				"isfocus": false,
+				"title": "Woodcraft"
 			}
 		],
 		"summary": "",

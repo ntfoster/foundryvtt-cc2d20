@@ -17,15 +17,23 @@
 			},
 			{
 				"isfocus": false,
-				"title": "Camouflage"
+				"title": "Concealment"
 			},
 			{
 				"isfocus": false,
-				"title": "Urban Stealth"
+				"title": "Escape Artistry"
 			},
 			{
 				"isfocus": false,
-				"title": "Rural Stealth"
+				"title": "Lock picking"
+			},
+			{
+				"isfocus": false,
+				"title": "Sleight of Hand"
+			},
+			{
+				"isfocus": false,
+				"title": "Sneak"
 			}
 		],
 		"summary": "",

@@ -17,19 +17,19 @@
 			},
 			{
 				"isfocus": false,
-				"title": "Combat Engineering"
+				"title": "Defenses"
 			},
 			{
 				"isfocus": false,
-				"title": "Electronics"
+				"title": "Demolition"
 			},
 			{
 				"isfocus": false,
-				"title": "Explosives"
+				"title": "Infrastructure"
 			},
 			{
 				"isfocus": false,
-				"title": "Mechanical Engineering"
+				"title": "Siege Engines"
 			}
 		],
 		"summary": "",

@@ -5,7 +5,7 @@
 	"command": "game.cc2d20.DialogD6.createDialog({ rollName: 'Stress Dice', diceNum: 1 })",
 	"folder": null,
 	"img": "systems/cc2d20/assets/d6-cthulhu.webp",
-	"name": "AC D6 Stress Dice",
+	"name": "CC D6 Stress Dice",
 	"scope": "global",
 	"type": "script"
 }
