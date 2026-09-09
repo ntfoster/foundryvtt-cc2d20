@@ -9,3 +9,5 @@ system/packs/
 *.code-workspace
 *.swp
 cc2d20-compiled*
+system/assets/fonts/DOMINICA.TTF
+system/assets/fonts/DOMISC.TTF

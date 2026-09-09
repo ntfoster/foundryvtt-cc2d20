@@ -13,7 +13,7 @@
 }
 
 .system-cc2d20 .journal-sheet .journal-header .title {
-	font-family: $font-germania;
+	font-family: $font-antique;
 	font-weight: bold;
 	color: black;
 	font-size: 3em;
@@ -32,7 +32,7 @@
 
 	a.content-link {
 		color: var(--content-link-text-color);
-		font-family: $font-germania;
+		font-family: $font-antique;
 		font-style: normal;
 		font-weight: normal;
 	}
@@ -44,7 +44,7 @@
 		font-family: $font-primary;
 
 		.aside-title {
-			font-family: $font-germania;
+			font-family: $font-antique;
 			margin: 0;
 			padding: 0.2em;
 			color: rgb(232, 225, 207);
@@ -102,7 +102,7 @@
 	}
 
 	h1 {
-		font-family: $font-germania;
+		font-family: $font-antique;
 		font-size: 4em;
 		font-weight: bold;
 		color: black;
@@ -110,7 +110,7 @@
 	}
 
 	h2 {
-		font-family: $font-germania;
+		font-family: $font-antique;
 		font-variant: small-caps;
 		font-size: 2.5em;
 		border-bottom: 2px solid rgb(69, 85, 58);
@@ -180,7 +180,7 @@
 		margin-top: 1em;
 
 		caption {
-			font-family: $font-germania;
+			font-family: $font-antique;
 			padding-top: 0.2em;
 			color: rgb(232, 225, 207);
 			background-color: rgba(69, 85, 58, 0.8);

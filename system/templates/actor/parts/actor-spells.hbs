@@ -1,9 +1,10 @@
 <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
 	<div class="section-title">
 		<h3>{{localize "AC2D20.TEMPLATES.Spells"}}<span class="item-create clickable" data-type="spell">&nbsp;&nbsp;&nbsp;&nbsp; +</span></h3>
-		<span class="right-slope olive"></span>
+		<span class="right-slope red"></span>
 	</div>
 	<div class="section-title">
+		<span class="left-slope red"></span>
 		<h3>{{localize "AC2D20.Spellcasting.SpellcastingType"}}</h3>
 		{{#select system.spellcastingType}}
 		<select name="system.spellcastingType">
@@ -12,30 +13,29 @@
 			<option value="dabbler">{{localize "AC2D20.Spellcasting.dabbler"}}</option>
 		</select>
 		{{/select}}
-		<span class="right-slope olive"></span>
 	</div>
 	<div class="section-title" style="border: 1px solid #759549;">
 		<h3>{{localize "AC2D20.TEMPLATES.Power"}}</h3>
-		<span class="right-slope olive"></span>
+		<span class="right-slope red"></span>
 		<input type="number" name="system.power.value" value="{{system.power.value}}" class="borderless num-short-3" style="height: 22px;">
 	</div>
 </div>
 <div class="ac-grid">
 	<div class="item">
 		<div class="row">
-			<div class="cell f4 green" style="background-color: #494e31;">{{localize "AC2D20.UI.Name"}}</div>
-			<div class="cell f3 align-center">{{localize "AC2D20.TEMPLATES.skill_focus"}}</div>
+			<div class="cell f4 grey">{{localize "AC2D20.UI.Name"}}</div>
+			<div class="cell f3 grey align-center">{{localize "AC2D20.TEMPLATES.skill_focus"}}</div>
 			<!-- <div class="cell f2">Focus</div> -->
-			<div class="cell f1 align-center">{{localize "AC2D20.TEMPLATES.Diff"}}</div>
-			<div class="cell f3 align-center">{{localize "AC2D20.TEMPLATES.Cost"}}</div>
-			<div class="cell f1 align-center">{{localize "AC2D20.TEMPLATES.Dur"}}</div>
+			<div class="cell f1 grey align-center">{{localize "AC2D20.TEMPLATES.Diff"}}</div>
+			<div class="cell f3 grey align-center">{{localize "AC2D20.TEMPLATES.Cost"}}</div>
+			<div class="cell f1 grey align-center">{{localize "AC2D20.TEMPLATES.Dur"}}</div>
 			<!-- <div class="cell f1 align-center"></div> -->
 		</div>
 	</div>
 	{{#each spells as |item key|}}
 	<div class="item spell editable-item" data-item-id="{{item._id}}">
 		<div class="row">
-			<div class="cell f4 green cell-expander align-left align-center cell-name">
+			<div class="cell f4 grey cell-expander align-left align-center cell-name">
 				<img src="{{item.img}}" />
 				{{item.name}}
 			</div>

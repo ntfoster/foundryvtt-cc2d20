@@ -38,12 +38,13 @@
 		.post-item {
 			padding-top: 2rem;
 			cursor: pointer;
-			color: colors.$c-green-olive;
+			color: colors.$c-red-light;
 		}
 	}
 
 	h1.sheet-name {
-		font-family: $font-germania;
+		font-family: $font-antique;
+		font-size: 1.25em;
 		padding: 0;
 		margin: 0;
 		border-bottom: 0;
@@ -70,7 +71,7 @@ nav {
 
 		.buttons {
 			padding: 0 5px;
-			background-color: colors.$c-green-olive;
+			background-color: colors.$c-red-light;
 			display: flex;
 
 			&.blue {
@@ -83,15 +84,15 @@ nav {
 				padding: 5px 10px;
 				border-top-left-radius: 5px;
 				border-top-right-radius: 5px;
-				font-family: $font-germania;
+				font-family: $font-antique;
 				color: colors.$c-black;
 				background-color: colors.$c-light;
-				border: 1px solid colors.$c-green-olive;
+				border: 1px solid colors.$c-red-dark;
 				text-shadow: none;
 
 				&.active {
 					color: colors.$c-light;
-					background-color: colors.$c-green-light;
+					background-color: colors.$c-red-light;
 					text-shadow: none;
 					margin-top: 2px;
 				}
@@ -120,7 +121,7 @@ nav {
 }
 
 .sheet-body .tab .editor {
-	border: 1px solid colors.$c-green-light;
+	border: 1px solid colors.$c-red-light;
 	padding: 5px;
 }
 
@@ -149,9 +150,9 @@ nav {
 	h3 {
 		display: flex;
 		align-items: center;
-		font-family: Germania One;
+		font-family: $font-antique;
 		color: colors.$c-light;
-		background-color: colors.$c-green-olive;
+		background-color: colors.$c-red-light;
 		padding: 2px 5px;
 		margin-bottom: 0;
 		width: fit-content;
@@ -164,6 +165,11 @@ nav {
 	.left-slope {
 		min-width: 22px;
 		background-repeat: no-repeat;
+		background-size: cover;
+
+		&.red {
+			background-image: url(../assets/ui/left-slope-red.webp);
+		}
 
 		&.olive {
 			background-image: url(../assets/ui/left-slope-olive.webp);
@@ -177,6 +183,11 @@ nav {
 	.right-slope {
 		min-width: 22px;
 		background-repeat: no-repeat;
+		background-size: cover;
+
+		&.red {
+			background-image: url(../assets/ui/right-slope-red.webp);
+		}
 
 		&.olive {
 			background-image: url(../assets/ui/right-slope-olive.webp);
@@ -191,24 +202,37 @@ nav {
 .attribute-grid {
 	display: grid;
 	grid-template-columns: repeat(8, 1fr);
-	color: colors.$c-light;
+	color: colors.$c-brown;
 
 	.attribute-cell {
 		display: flex;
 		align-items: center;
 		padding: 1px;
 		justify-content: center;
-		border: 1px solid colors.$c-green-light;
+		border: 1px solid colors.$c-red-light;
 		margin: 0 -1px -1px 0;
 
 		&.green {
-			background-color: colors.$c-green-light;
+			background-color: colors.$c-red-light;
+		}
+
+		&.grey {
+			font-family: $font-antique;
+			background-color: colors.$c-grey;
+		}
+
+		&.red {
+			color: colors.$c-light;
+			font-family: $font-antique;
+			font-size: 1.2em;
+			background-color: colors.$c-red-light;
 		}
 
 		&.olive {
-			font-family: $font-germania;
-			background-color: colors.$c-green-olive;
+			font-family: $font-antique;
+			background-color: colors.$c-red-dark;
 		}
+
 
 		input[type="number"] {
 			text-align: center;
@@ -231,7 +255,7 @@ nav {
 		font-size: 1.2rem;
 		line-height: 1.2rem;
 		height: 30px;
-		font-family: 'Germania One';
+		font-family: $font-antique;
 
 		&:disabled {
 			border: 1px solid var(--color-border-light-tertiary);
@@ -243,12 +267,12 @@ nav {
 		padding: 2px 5px;
 		margin: 0;
 		color: colors.$c-light;
-		background-color: colors.$c-green-olive;
-		font-family: Germania One;
+		background-color: colors.$c-red-light;
+		font-family: $font-antique;
 
 		&.minmax {
 			padding-right: 5px;
-			background-color: colors.$c-green-olive;
+			background-color: colors.$c-red-light;
 		}
 	}
 }
@@ -297,7 +321,7 @@ nav {
 		}
 
 		padding: 2px;
-		border: 1px solid colors.$c-green-light;
+		border: 1px solid colors.$c-red-light;
 		margin:0 -1px -1px 0;
 
 		.injury-text {
@@ -318,7 +342,7 @@ nav {
 
 	.truth-cell {
 		padding: 2px;
-		border: 1px solid colors.$c-green-light;
+		border: 1px solid colors.$c-red-light;
 		margin: 0 -1px -1px 0;
 
 		textarea {
@@ -332,13 +356,13 @@ nav {
 .skills {
 	display: flex;
 	flex-direction: column;
-	border: 1px solid colors.$c-green-light;
+	border: 1px solid colors.$c-red-light;
 
 	.skill {
 		display: flex;
 		flex-direction: row;
 		flex: 0;
-		border-bottom: 1px solid colors.$c-green-light;
+		border-bottom: 1px solid colors.$c-red-light;
 		align-items: stretch;
 
 		.skill-name {
@@ -346,8 +370,8 @@ nav {
 			flex: 1;
 			align-items: center;
 			padding: 5px;
-			color: colors.$c-light;
-			background-color: colors.$c-green-light;
+			color: colors.$c-dark;
+			background-color: colors.$c-grey;
 			font-weight: 900;
 			cursor: pointer;
 		}
@@ -356,8 +380,8 @@ nav {
 			display: flex;
 			align-items: center;
 			padding: 0 5px;
-			border-left: 1px solid colors.$c-green-light;
-			border-right: 1px solid colors.$c-green-light;
+			border-left: 1px solid colors.$c-red-light;
+			border-right: 1px solid colors.$c-red-light;
 		}
 
 		.skill-focuses {
@@ -374,7 +398,7 @@ nav {
 				&.focused {
 					cursor: pointer;
 					color: beige;
-					background-color: colors.$c-green-light;
+					background-color: colors.$c-red-light;
 					border-radius: 3px;
 					padding: 2px 4px;
 					margin: 1px;
@@ -392,10 +416,10 @@ nav {
 .ac-grid {
 	display: flex;
 	flex-direction: column;
-	border: 1px solid colors.$c-green-light;
+	border: 1px solid colors.$c-red-light;
 
 	.item {
-		border-bottom: 1px solid colors.$c-green-light;
+		border-bottom: 1px solid colors.$c-red-light;
 
 		&:last-child {
 			border-bottom: none;
@@ -415,7 +439,7 @@ nav {
 			.cell {
 				display: flex;
 				padding: 5px;
-				border-right: 1px solid colors.$c-green-light;
+				border-right: 1px solid colors.$c-red-light;
 
 				//text-align: center;
 				//justify-content: center;
@@ -472,9 +496,15 @@ nav {
 					cursor: pointer;
 				}
 
-				&.green {
+				&.red {
 					color: colors.$c-light;
-					background-color: colors.$c-green-light;
+					background-color: colors.$c-red-light;
+					font-weight: 900;
+				}
+
+				&.grey {
+					color: colors.$c-brown;
+					background-color: colors.$c-grey;
 					font-weight: 900;
 				}
 			}
@@ -482,8 +512,8 @@ nav {
 
 		.item-summary {
 			padding: 5px;
-			border-top: 1px solid colors.$c-green-light;
-			border-bottom: 1px solid colors.$c-green-light;
+			border-top: 1px solid colors.$c-red-light;
+			border-bottom: 1px solid colors.$c-red-light;
 		}
 	}
 }
@@ -496,7 +526,7 @@ nav {
 	align-items: center;
 	padding: 0.3rem;
 	margin-bottom: 0.3rem;
-	background-color: colors.$c-green-light;
+	background-color: colors.$c-red-light;
 
 	input[type="number"] {
 		height: 1.1rem;

@@ -8,7 +8,7 @@
 	padding: 0;
 	align-items: center;
 	background: rgba(0, 0, 0, 0.05);
-	border: colors.$c-green-light;
+	border: colors.$c-red-light;
 	font-weight: bold;
 
 	> * {
@@ -122,7 +122,7 @@
 }
 
 .item-control {
-	color: colors.$c-green-olive;
+	color: colors.$c-red-dark;
 
 	&.blue {
 		color: colors.$c-blue-dark;

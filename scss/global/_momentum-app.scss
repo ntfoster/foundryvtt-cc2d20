@@ -11,22 +11,22 @@
 
 	.ap-resource {
 		border-radius: 9px;
-		font-family: $font-germania;
+		font-family: $font-antique;
 		padding: 10px 20px;
 		margin-bottom: 10px;
 		min-width: 140px;
 
 		&.gm {
-			background-color: colors.$c-green-olive;
+			background-color: colors.$c-red-dark;
 		}
 
 		&.party {
-			background-color: colors.$c-green-light;
+			background-color: colors.$c-red-light;
 		}
 
 		h4 {
 			color: bisque;
-			font-family: $font-germania;
+			font-family: $font-antique;
 			font-size: 16px;
 			font-weight: normal;
 			text-align: center;
@@ -44,7 +44,7 @@
 			align-items: center;
 			background-color: bisque;
 			border-radius: 6px;
-			color: colors.$c-green-olive;
+			color: colors.$c-red-dark;
 			display: flex;
 			justify-content: center;
 			max-width: 24px;

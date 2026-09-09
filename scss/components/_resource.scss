@@ -44,11 +44,11 @@ input[type="number"] {
 
 	&.active {
 		color: colors.$c-light;
-		background-color: colors.$c-green-light;
+		background-color: colors.$c-red-light;
 
 		&:hover {
 			color: colors.$c-white;
-			background-color: colors.$c-green-olive;
+			background-color: colors.$c-red-dark;
 		}
 	}
 
@@ -60,7 +60,7 @@ input[type="number"] {
 
 	&.green-field {
 		padding: 5px;
-		background-color: colors.$c-green-olive;
+		background-color: colors.$c-red-dark;
 		color: colors.$c-light;
 	}
 }

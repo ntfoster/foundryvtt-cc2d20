@@ -13,7 +13,7 @@ export function diceSoNiceReadyHook(dice3d) {
 			background: "#000000",
 			outline: "#000000",
 			texture: "none",
-			font: "Germania One",
+			font: "IM Fell English SC",
 		}
 	);
 

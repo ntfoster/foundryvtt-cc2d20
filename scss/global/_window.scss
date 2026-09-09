@@ -10,14 +10,14 @@
 
 		button {
 			background-color: colors.$c-beige;
-			color: colors.$c-green-olive;
-			font-family: $font-germania;
+			color: colors.$c-red-dark;
+			font-family: $font-antique;
 			font-size: 16px;
 
 			&:hover {
-				box-shadow: 0 0 5px colors.$c-green-light;
+				box-shadow: 0 0 5px colors.$c-red-light;
 				cursor: pointer;
-				text-shadow: 0 0 10px colors.$c-green-light;
+				text-shadow: 0 0 10px colors.$c-red-light;
 			}
 		}
 
@@ -37,12 +37,12 @@ input[type="number"]:focus,
 input[type="password"]:focus,
 input[type="date"]:focus,
 input[type="time"]:focus {
-	box-shadow: 0 0 5px colors.$c-green-light;
+	box-shadow: 0 0 5px colors.$c-red-light;
 }
 
 a {
 	&:hover {
-		text-shadow: 0 0 10px colors.$c-green-olive;
+		text-shadow: 0 0 10px colors.$c-red-dark;
 		cursor: pointer;
 	}
 }
@@ -51,7 +51,7 @@ a {
 	&:hover,
 	&:focus {
 		color: #000;
-		text-shadow: 0 0 10px colors.$c-green-light;
+		text-shadow: 0 0 10px colors.$c-red-light;
 		cursor: pointer;
 	}
 }
@@ -63,18 +63,18 @@ a {
 		text-indent: 1px;
 		text-overflow: "";
 		margin-left: 5px;
-		font-family: $font-germania;
+		font-family: $font-antique;
 		line-height: 1;
 	}
 
 	.resource {
-		background-color: colors.$c-green-light;
+		background-color: colors.$c-red-light;
 		margin: 0 2px 5px;
 		padding: 0 5px 0 0;
 
 		.title-label {
 			color: colors.$c-white;
-			font-family: $font-germania;
+			font-family: $font-antique;
 			font-size: 1rem;
 			padding: 5px;
 		}
@@ -126,14 +126,14 @@ a {
 
 	button {
 		background-color: colors.$c-beige;
-		color: colors.$c-green-olive;
-		font-family: $font-germania;
+		color: colors.$c-red-dark;
+		font-family: $font-antique;
 		font-size: 16px;
 
 		&:hover {
-			box-shadow: 0 0 5px colors.$c-green-light;
+			box-shadow: 0 0 5px colors.$c-red-light;
 			cursor: pointer;
-			text-shadow: 0 0 10px colors.$c-green-light;
+			text-shadow: 0 0 10px colors.$c-red-light;
 		}
 	}
 
@@ -142,7 +142,7 @@ a {
 
 		h2 {
 			border: none;
-			font-family: $font-germania;
+			font-family: $font-antique;
 			font-size: 28px;
 			font-weight: 700;
 			margin-bottom: 4px;
@@ -159,8 +159,8 @@ a {
 		}
 
 		.success-plaq {
-			color: colors.$c-green-olive;
-			font-family: $font-germania;
+			color: colors.$c-red-dark;
+			font-family: $font-antique;
 			font-size: 18px;
 			margin: 0 0 4px 0;
 
@@ -174,14 +174,14 @@ a {
 
 		.complication-plaq {
 			color: colors.$c-red-dark;
-			font-family: $font-germania;
+			font-family: $font-antique;
 			font-size: 18px;
 			margin: 0 0 5px 0;
 		}
 
 		.damage-plaq {
-			color: colors.$c-green-olive;
-			font-family: $font-germania;
+			color: colors.$c-red-dark;
+			font-family: $font-antique;
 			font-size: 18px;
 			margin: 0 0 5px 0;
 		}
@@ -266,7 +266,7 @@ a {
 		text-align: center;
 
 		h3 {
-			font-family: $font-germania;
+			font-family: $font-antique;
 			font-size: 1.5rem;
 		}
 	}
