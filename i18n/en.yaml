@@ -169,6 +169,7 @@ AC2D20.TEMPLATES.Attribute: Attribute
 AC2D20.TEMPLATES.Attributes: Attributes
 AC2D20.TEMPLATES.Background: Background
 AC2D20.TEMPLATES.bonus: Bonus
+AC2D20.TEMPLATES.Caste: Caste
 AC2D20.TEMPLATES.Characteristic: Characteristic
 AC2D20.TEMPLATES.Compl: Compl.
 AC2D20.TEMPLATES.Complications: Complications
@@ -178,6 +179,7 @@ AC2D20.TEMPLATES.CostEffects: Cost Effects
 AC2D20.TEMPLATES.Create_Ammo: Create Ammo
 AC2D20.TEMPLATES.Create_Special_Rule: Create Special Rule
 AC2D20.TEMPLATES.Create_Weapon: Create Weapon
+AC2D20.TEMPLATES.Culture: Culture
 AC2D20.TEMPLATES.current: current
 AC2D20.TEMPLATES.DAMAGE_EFFECTS: DAMAGE EFFECTS
 AC2D20.TEMPLATES.DAMAGE_TYPE: DAMAGE TYPE
@@ -291,6 +293,9 @@ AC2D20.TEMPLATES.Use_Coordination: Use Coordination
 AC2D20.TEMPLATES.Use_Insight: Use Insight
 AC2D20.TEMPLATES.Use_Reason: Use Reason
 AC2D20.TEMPLATES.Use_Will: Use Will
+AC2D20.TEMPLATES.Wealth: Wealth
+AC2D20.TEMPLATES.WealthCurrent: Current Wealth
+AC2D20.TEMPLATES.WealthRating: Wealth Rating
 AC2D20.TEMPLATES.Weapon_Qualities: WEAPON QUALITIES
 AC2D20.TEMPLATES.Weapon_Type: Weapon Type
 AC2D20.TEMPLATES.Weapons: Weapons
@@ -384,7 +389,7 @@ AC2D20.Tooltips.Focus.watercraft: Watercraft — covers the operation of civilia
 AC2D20.Tooltips.Skill.academia: This skill covers your character’s education and accumulated knowledge, as well as their ability to research unfamiliar subjects. Academia is most useful when trying to study new information or recall facts about a subject.
 AC2D20.Tooltips.Skill.athletics: This skill measures your character’s physical conditioning and athletic ability. Athletics also includes your character’s attempts to move with haste.
 AC2D20.Tooltips.Skill.crafting: This skill incorporates your character’s familiarity with techniques to fabricate goods, as well as their ability to research and develop new designs.
-AC2D20.Tooltips.Skill.engineering: This skill encompasses your character’s technical and mechanical expertise, with an emphasis on practical applications: designing, building, and repairing devices and structures; operating equipment; and determining how to disable or destroy devices and structures.
+AC2D20.Tooltips.Skill.engineering: "This skill encompasses your character’s technical and mechanical expertise, with an emphasis on practical applications: designing, building, and repairing devices and structures; operating equipment; and determining how to disable or destroy devices and structures."
 AC2D20.Tooltips.Skill.fighting: This skill covers your character’s ability to fight and defend themself against attacks, incorporating a combination of learned techniques, physical conditioning, and instinct. It is used to make attacks and to judge threatening situations, and it includes a practical understanding of weaponry and combat styles.
 AC2D20.Tooltips.Skill.medicine: Medicine is your character’s ability to diagnose and treat conditions such as injuries and diseases. It is used for mending wounds, dealing with the symptoms of an illness, and staving off death.
 AC2D20.Tooltips.Skill.observation: This skill incorporates your character’s awareness and their ability to glean information from their surroundings. It describes how observant and astute they are, how quickly they pick out important details and make use of them, and how well they can ignore distractions. Observation overlaps with many other skills and often runs parallel to Academia, as both address gaining information, albeit in different ways.

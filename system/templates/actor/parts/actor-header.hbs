@@ -22,20 +22,20 @@
 			<input
 				class="underline"
 				data-dtype="String"
-				name="system.nationality"
-				placeholder="{{localize 'AC2D20.TEMPLATES.Nationality'}}"
+				name="system.culture"
+				placeholder="{{localize 'AC2D20.TEMPLATES.Culture'}}"
 				style="align-self: flex-end; margin: 0 5px;"
 				type="text"
-				value="{{system.nationality}}"
+				value="{{system.culture}}"
 			/>
 			<input
 				class="underline"
 				data-dtype="String"
-				name="system.rank"
-				placeholder="{{localize 'AC2D20.TEMPLATES.Rank'}}"
+				name="system.caste"
+				placeholder="{{localize 'AC2D20.TEMPLATES.Caste'}}"
 				style="align-self: flex-end; margin: 0 5px;"
 				type="text"
-				value="{{system.rank}}"
+				value="{{system.caste}}"
 			/>
 		</div>
 		<div class="flexrow" style="padding: 0 5px;">
@@ -73,10 +73,33 @@
 				data-dtype="String"
 				name="system.languages"
 				placeholder="{{localize 'AC2D20.TEMPLATES.Languages'}}"
-				style="flex: 3; align-self: flex-end;margin: 0 5px;"
+				style="flex: 1; align-self: flex-end;margin: 0 5px;"
 				type="text"
 				value="{{system.languages}}"
 			/>
+			<div class="derived-box" style="padding-top: 4px;">
+				<div class="section-title">
+					<h3>{{localize "AC2D20.TEMPLATES.Wealth"}}</h3>
+				</div>
+				<input
+					class="num-short-3"
+					data-tooltip="{{localize "AC2D20.TEMPLATES.WealthCurrent"}}"
+					min="0"
+					name="system.wealth.current"
+					type="number"
+					value="{{system.wealth.current}}"
+				>
+				<h3 class="minmax">/</h3>
+				<input
+					class="num-short-3"
+					data-tooltip="{{localize "AC2D20.TEMPLATES.WealthRating"}}"
+					min="0"
+					name="system.wealth.rating"
+					type="number"
+					value="{{system.wealth.rating}}"
+				>
+			</div>
+
 			<div class="derived-box" style="padding-top: 4px;">
 				<div class="section-title">
 					<h3>{{localize "AC2D20.TEMPLATES.Experience"}}</h3>
