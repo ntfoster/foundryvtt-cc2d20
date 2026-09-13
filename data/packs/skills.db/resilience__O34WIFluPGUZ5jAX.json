@@ -7,7 +7,7 @@
 	"img": "systems/cc2d20/assets/skills.svg",
 	"name": "Resilience",
 	"system": {
-		"defaultAttribute": "agi",
+		"defaultAttribute": "bra",
 		"description": "",
 		"favorite": false,
 		"focuses": [

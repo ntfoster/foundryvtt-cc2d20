@@ -7,7 +7,7 @@
 	"img": "systems/cc2d20/assets/skills.svg",
 	"name": "Tactics",
 	"system": {
-		"defaultAttribute": "agi",
+		"defaultAttribute": "ins",
 		"description": "",
 		"favorite": false,
 		"focuses": [

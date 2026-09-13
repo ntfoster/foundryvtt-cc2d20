@@ -7,7 +7,7 @@
 	"img": "systems/cc2d20/assets/skills.svg",
 	"name": "Stealth",
 	"system": {
-		"defaultAttribute": "agi",
+		"defaultAttribute": "coo",
 		"description": "",
 		"favorite": false,
 		"focuses": [
