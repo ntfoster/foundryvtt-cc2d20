@@ -33,6 +33,10 @@
 					"value": 0
 				},
 				"truths": [],
+				"wealth": {
+					"current": 0,
+					"rating": 0
+				},
 				"xp": {
 					"log": [],
 					"min": 0,
@@ -103,8 +107,8 @@
 			"background": "",
 			"characteristic": "",
 			"languages": "",
-			"nationality": "",
-			"rank": "",
+			"culture": "",
+			"caste": "",
 			"spellcastingType": "traditional",
 			"templates": [
 				"base",
