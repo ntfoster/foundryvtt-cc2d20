@@ -1,19 +1,20 @@
 export function diceSoNiceReadyHook(dice3d) {
 	dice3d.addSystem(
-		{ id: "cc2d20", name: "Achtung Cthulhu 2d20" },
+		{ id: "cc2d20", name: "Cohors Cthulhu 2d20" },
 		true
 	);
 
 	dice3d.addColorset(
 		{
 			name: "cc2d20",
-			description: "Achtung Cthulhu 2d20",
+			description: "Cohors Cthulhu 2d20",
 			category: "Colors",
-			foreground: "#c3ae5c",
-			background: "#000000",
-			outline: "#000000",
+			foreground: "#8b1028",
+			background: "#bbbbbb",
+			outline: "#333333",
+			edge: "#cccccc",
 			texture: "none",
-			font: "IM Fell English SC",
+			font: "Modesto Condensed",
 		}
 	);
 
