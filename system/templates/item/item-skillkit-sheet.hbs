@@ -3,7 +3,6 @@
 	{{!-- Sheet Tab Navigation --}}
 	<nav class="sheet-tabs" data-group="primary">
 		{{!-- Default tab is specified in actor-sheet.mjs --}}
-		<img src="systems/cc2d20/assets/main-menu-slope.webp">
 		<div class="buttons">
 			<a class="item" data-tab="attributes">{{localize "AC2D20.TEMPLATES.Attributes"}}</a>
 		</div>
@@ -20,7 +19,6 @@
 				<div class="resource-row bgOdd">
 					<div class="section-title">
 						<h3>{{localize "AC2D20.TEMPLATES.SkillFocus"}}</h3>
-						<span class="right-slope olive"></span>
 					</div>
 					<input type="text" name="system.skill" value="{{system.skill}}">
 				</div>
@@ -28,7 +26,6 @@
 				<div class="resource-row bgOdd">
 					<div class="section-title">
 						<h3>{{localize "AC2D20.TEMPLATES.Resources"}}</h3>
-						<span class="right-slope olive"></span>
 					</div>
 					<input type="number" name="system.resources" value="{{system.resources}}" style="text-align:center">
 				</div>
@@ -36,7 +33,6 @@
 
 			<div class="section-title">
 				<h3>{{localize "AC2D20.TEMPLATES.Description"}}</h3>
-				<span class="right-slope olive"></span>
 			</div>
 			{{editor descriptionHTML target="system.description" rollData=rollData button=true owner=owner editable=editable}}
 		</div>

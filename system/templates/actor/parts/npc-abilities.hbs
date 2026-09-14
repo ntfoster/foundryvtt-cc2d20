@@ -47,7 +47,6 @@
 				{{localize "AC2D20.TEMPLATES.Truths"}}
 				<span class="truth-create clickable">&nbsp;&nbsp;&nbsp;&nbsp; +</span>
 			</h3>
-			<span class="right-slope blue"></span>
 		</div>
 		<div class="textbox npc-truths">
 			{{#each system.truths}}
@@ -64,8 +63,7 @@
 		<div style="margin-bottom: 2rem;">
 			<div class="section-title">
 				<h3 class="blue">{{localize "AC2D20.TEMPLATES.Skills"}}</h3>
-				<span class="right-slope blue"></span>
-			</div>
+				</div>
 			<ul class="items-list-npc">
 				{{#each skills as |item key|}}
 				<li class="skill editable-item" data-item-id="{{item._id}}">
@@ -87,8 +85,7 @@
 		<div style="margin-bottom: 2rem;">
 			<div class="section-title">
 				<h3 class="blue">{{ localize "AC2D20.TEMPLATES.SpecialRules"}}<span class="item-create clickable" data-type="special_rule">&nbsp;&nbsp;&nbsp;&nbsp; +</span></h3>
-				<span class="right-slope blue"></span>
-			</div>
+				</div>
 			<ul class="items-list-npc">
 				{{#each specialRules as |item key|}}
 				<li class="item special-rule editable-item" data-item-id="{{item._id}}">
@@ -118,8 +115,7 @@
 						&nbsp;&nbsp;&nbsp;&nbsp; +
 					</span>
 				</h3>
-				<span class="right-slope blue"></span>
-			</div>
+				</div>
 			<ul class="items-list-npc">
 				{{#each weapons}}
 					<li class="item editable-item" data-item-id="{{this._id}}">
@@ -153,8 +149,7 @@
 						<h3 class="blue">
 							{{localize "AC2D20.TEMPLATES.EscalationOptions"}}
 						</h3>
-						<span class="right-slope blue"></span>
-					</div>
+								</div>
 					{{#each escalationWeapons}}
 						<li class="item editable-item" data-item-id="{{this._id}}">
 							<span class="main-row">
@@ -188,8 +183,7 @@
 		<div style="margin-bottom: 2rem;">
 			<div class="section-title">
 				<h3 class="blue">{{localize "AC2D20.TEMPLATES.Spells_Rituals"}}<span class="item-create clickable" data-type="spell">&nbsp;&nbsp;&nbsp;&nbsp; +</span></h3>
-				<span class="right-slope blue"></span>
-			</div>
+				</div>
 			<div style="padding: 3px 5px; background-color: #548da9">
 				<label style="color:#ebe7d7">{{localize "AC2D20.Spellcasting.SpellcastingType"}}</label>
 				{{#select system.spellcastingType}}
