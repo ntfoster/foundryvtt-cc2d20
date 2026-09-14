@@ -453,6 +453,7 @@ AC2D20.VEHICLES.QUALITIES.exposed: Exposed
 AC2D20.VEHICLES.QUALITIES.high_performance: High Performance
 AC2D20.VEHICLES.QUALITIES.single_seat: Single Seat
 AC2D20.VEHICLES.QUALITIES.tough_x: Tough
+AC2D20.VEHICLES.QUALITIES.extraordinary_brawn_x: Extraordinary Brawn
 AC2D20.Warnings.DerivedValue: This is an auto-calculated value that cannot be edited.
 AC2D20.Warnings.OnEditOwnedItemActiveEffects: Managing Active Effects within an Owned Item is not currently supported.
 AC2D20.WEAPONS.damageEffect.area: Area
