@@ -42,7 +42,7 @@ jobs:
       uses: ncipollo/release-action@v1
       with:
         allowUpdates: false
-        artifacts: './system/system.json, ./ac2d20.zip'
+        artifacts: './system/system.json, ./cc2d20.zip'
         draft: false
         makeLatest: false
         name: release-${{ env.systemVersion }}
