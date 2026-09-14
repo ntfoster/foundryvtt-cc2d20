@@ -9,6 +9,10 @@
 	},
 	"authors": [
 		{
+			"name": "Neil Foster",
+			"email": "neil@ntfg.uk"
+		},
+		{
 			"name": "Paul Maskelyne",
 			"discord": "Muttley#3296",
 			"email": "mu77ley@gmail.com",
@@ -17,10 +21,6 @@
 		{
 			"name": "HappySteve",
 			"flags": {}
-		},
-		{
-			"name": "Neil Foster",
-			"email": "neil@ntfg.uk"
 		}
 	],
 	"esmodules": [
@@ -69,7 +69,7 @@
 	],
 	"packFolders": [
 		{
-			"name": "Cohors! Cthulhu 2d20",
+			"name": "Cohors Cthulhu 2d20",
 			"sorting": "a",
 			"color": "#791d2a",
 			"packs": [
@@ -82,44 +82,9 @@
 	],
 	"languages": [
 		{
-			"lang": "ca",
-			"name": "Català",
-			"path": "i18n/ca.json",
-			"flags": {}
-		},
-		{
 			"lang": "en",
 			"name": "English",
 			"path": "i18n/en.json",
-			"flags": {}
-		},
-		{
-			"lang": "es",
-			"name": "Español",
-			"path": "i18n/es.json",
-			"flags": {}
-		},
-		{
-			"lang": "fr",
-			"name": "Français",
-			"path": "i18n/fr.json",
-			"flags": {}
-		},
-		{
-			"lang": "it",
-			"name": "Italian",
-			"path": "i18n/it.json"
-		},
-		{
-			"lang": "pl",
-			"name": "Polski",
-			"path": "i18n/pl.json",
-			"flags": {}
-		},
-		{
-			"lang": "pt-BR",
-			"name": "Português (Brasil)",
-			"path": "i18n/pt_BR.json",
 			"flags": {}
 		}
 	],

@@ -32,9 +32,9 @@ AC2D20.ARMOR_QUALITIES = {
 };
 
 AC2D20.DEFAULT_TOKENS = {
-	character: "systems/cc2d20/assets/doc-icons/character.svg",
-	npc: "systems/cc2d20/assets/doc-icons/npc.svg",
-	vehicle: "systems/cc2d20/assets/doc-icons/vehicle.svg",
+	// character: "systems/cc2d20/assets/doc-icons/character.svg",
+	// npc: "systems/cc2d20/assets/doc-icons/npc.svg",
+	// vehicle: "systems/cc2d20/assets/doc-icons/vehicle.svg",
 };
 
 AC2D20.ITEM_COMPENDIUMS = {};
