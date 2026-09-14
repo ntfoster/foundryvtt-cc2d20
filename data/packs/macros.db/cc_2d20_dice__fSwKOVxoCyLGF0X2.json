@@ -4,8 +4,8 @@
 	"author": "zSo9baAk8tjHoDE4",
 	"command": "game.cc2d20.Dialog2d20.createDialog({ rollName: '2D20 Roll', diceNum: 2, attribute: 6, skill: 0, focus: false, complication: 20})",
 	"folder": null,
-	"img": "systems/cc2d20/assets/d20-cross.webp",
-	"name": "AC 2d20 Dice",
+	"img": "systems/cc2d20/assets/d20.webp",
+	"name": "CC 2d20 Dice",
 	"scope": "global",
 	"type": "script"
 }
