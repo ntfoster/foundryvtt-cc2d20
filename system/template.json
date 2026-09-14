@@ -154,11 +154,7 @@
 					"rank": 0,
 					"value": false
 				},
-				"high_performance": {
-					"rank": 0,
-					"value": false
-				},
-				"single_seat": {
+				"extraordinary_brawn_x": {
 					"rank": 0,
 					"value": false
 				},
@@ -215,11 +211,6 @@
 				"heavy": {
 					"description": "",
 					"label": "Heavy",
-					"value": false
-				},
-				"shield": {
-					"description": "",
-					"label": "Shield",
 					"value": false
 				},
 				"uncomfortable": {
@@ -304,14 +295,9 @@
 			]
 		},
 		"weapon": {
-			"ammo": 0,
 			"effect": {
 				"area": {
 					"rank": 0,
-					"value": false
-				},
-				"backlash_x": {
-					"rank": 1,
 					"value": false
 				},
 				"drain": {
@@ -319,6 +305,10 @@
 					"value": false
 				},
 				"intense": {
+					"rank": 0,
+					"value": false
+				},
+				"knockdown": {
 					"rank": 0,
 					"value": false
 				},
@@ -353,22 +343,10 @@
 				"bane": {
 					"value": false
 				},
-				"close_quarters": {
-					"value": false
-				},
-				"cumbersome": {
-					"value": false
-				},
 				"debilitating": {
 					"value": false
 				},
 				"escalation": {
-					"value": false
-				},
-				"experimental": {
-					"value": false
-				},
-				"giant_killer": {
 					"value": false
 				},
 				"heavy": {
@@ -386,30 +364,33 @@
 				"indirect": {
 					"value": false
 				},
-				"munition": {
-					"value": false
-				},
 				"parrying": {
-					"value": false
-				},
-				"precise": {
 					"value": false
 				},
 				"reliable": {
 					"value": false
 				},
+				"reload": {
+					"value": false
+				},
+				"shield_x": {
+					"rank": 1,
+					"value": false
+				},
+				"special": {
+					"value": false
+				},
 				"subtle": {
+					"value": false
+				},
+				"two_handed": {
 					"value": false
 				},
 				"unreliable": {
 					"value": false
-				},
-				"venomous": {
-					"value": false
 				}
 			},
 			"range": "close",
-			"salvo": "",
 			"skill": "",
 			"stress": 0,
 			"templates": [

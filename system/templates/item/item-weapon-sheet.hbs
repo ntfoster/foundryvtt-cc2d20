@@ -89,16 +89,6 @@
 				<input type="number" name="system.stress" value="{{system.stress}}">
 			</div>
 
-			<div class="resource-row flexrow bgEven resource">
-				<label class="resource-label" for="system.ammo"><strong>{{localize "AC2D20.TEMPLATES.Ammo"}}</strong></label>
-				<input type="number" name="system.ammo" value="{{system.ammo}}">
-			</div>
-
-			<div class="resource-row flexrow bgOdd resource">
-				<label class="resource-label" for="system.salvo"><strong>{{localize "AC2D20.TEMPLATES.Salvo"}}</strong></label>
-				<input type="text" name="system.salvo" value="{{system.salvo}}">
-			</div>
-
 			<div class="grid-2-columns">
 				<div class="resource-row">
 					<div class="section-title">
@@ -126,6 +116,15 @@
 									>
 									{{this.label}}
 								</label>
+								{{#if this.hasRank}}
+									<input
+										class="num-short-2"
+										name="system.effect.{{this.key}}.rank"
+										style="height: 1.1rem;"
+										type="number"
+										value="{{this.rank}}"
+									>
+								{{/if}}
 							</div>
 						{{/each}}
 					</div>

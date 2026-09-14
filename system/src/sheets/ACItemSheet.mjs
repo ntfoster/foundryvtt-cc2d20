@@ -165,6 +165,8 @@ export default class ACItemSheet
 		for (const key in CONFIG.AC2D20.WEAPON_QUALITIES) {
 			weaponQualities.push({
 				active: this.item.system?.qualities[key].value ?? false,
+				hasRank: CONFIG.AC2D20.WEAPON_QUALITY_HAS_RANK[key],
+				rank: this.item.system?.qualities[key].rank,
 				key,
 				label: CONFIG.AC2D20.WEAPON_QUALITIES[key],
 			});

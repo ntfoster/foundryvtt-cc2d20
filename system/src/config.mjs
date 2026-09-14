@@ -28,7 +28,6 @@ AC2D20.abilityAbbreviations = {
 
 AC2D20.ARMOR_QUALITIES = {
 	heavy: "AC2D20.ARMOR.qualities.heavy",
-	shield: "AC2D20.ARMOR.qualities.shield",
 	uncomfortable: "AC2D20.ARMOR.qualities.uncomfortable",
 };
 
@@ -48,9 +47,9 @@ AC2D20.Size = ["Trivial", "Minor", "Major"];
 
 AC2D20.DAMAGE_EFFECTS = {
 	area: "AC2D20.WEAPONS.damageEffect.area",
-	backlash_x: "AC2D20.WEAPONS.damageEffect.backlash_x",
 	drain: "AC2D20.WEAPONS.damageEffect.drain",
 	intense: "AC2D20.WEAPONS.damageEffect.intense",
+	knockdown: "AC2D20.WEAPONS.damageEffect.knockdown",
 	persistent_x: "AC2D20.WEAPONS.damageEffect.persistent_x",
 	piercing_x: "AC2D20.WEAPONS.damageEffect.piercing_x",
 	snare: "AC2D20.WEAPONS.damageEffect.snare",
@@ -63,37 +62,36 @@ AC2D20.VEHICLE_QUALITIES = {
 	cumbersome: "AC2D20.VEHICLES.QUALITIES.cumbersome",
 	enclosed: "AC2D20.VEHICLES.QUALITIES.enclosed",
 	exposed: "AC2D20.VEHICLES.QUALITIES.exposed",
-	high_performance: "AC2D20.VEHICLES.QUALITIES.high_performance",
-	single_seat: "AC2D20.VEHICLES.QUALITIES.single_seat",
+	extraordinary_brawn_x: "AC2D20.VEHICLES.QUALITIES.extraordinary_brawn_x",
 	tough_x: "AC2D20.VEHICLES.QUALITIES.tough_x",
 };
 
 AC2D20.WEAPON_QUALITIES = {
 	accurate: "AC2D20.WEAPONS.weaponQuality.accurate",
 	bane: "AC2D20.WEAPONS.weaponQuality.bane",
-	close_quarters: "AC2D20.WEAPONS.weaponQuality.close_quarters",
-	cumbersome: "AC2D20.WEAPONS.weaponQuality.cumbersome",
 	debilitating: "AC2D20.WEAPONS.weaponQuality.debilitating",
 	escalation: "AC2D20.WEAPONS.weaponQuality.escalation",
-	experimental: "AC2D20.WEAPONS.weaponQuality.experimental",
-	giant_killer: "AC2D20.WEAPONS.weaponQuality.giant_killer",
 	heavy: "AC2D20.WEAPONS.weaponQuality.heavy",
 	hidden: "AC2D20.WEAPONS.weaponQuality.hidden",
 	hunger: "AC2D20.WEAPONS.weaponQuality.hunger",
 	inaccurate: "AC2D20.WEAPONS.weaponQuality.inaccurate",
 	indirect: "AC2D20.WEAPONS.weaponQuality.indirect",
-	munition: "AC2D20.WEAPONS.weaponQuality.munition",
 	parrying: "AC2D20.WEAPONS.weaponQuality.parrying",
-	precise: "AC2D20.WEAPONS.weaponQuality.precise",
 	reliable: "AC2D20.WEAPONS.weaponQuality.reliable",
+	reload: "AC2D20.WEAPONS.weaponQuality.reload",
+	shield_x: "AC2D20.WEAPONS.weaponQuality.shield_x",
+	special: "AC2D20.WEAPONS.weaponQuality.special",
 	subtle: "AC2D20.WEAPONS.weaponQuality.subtle",
+	two_handed: "AC2D20.WEAPONS.weaponQuality.two_handed",
 	unreliable: "AC2D20.WEAPONS.weaponQuality.unreliable",
-	venomous: "AC2D20.WEAPONS.weaponQuality.venomous",
 };
 
 AC2D20.WEAPONS = {
 	range: {
-		reach: "AC2D20.RANGE.reach",
+		reach0: "AC2D20.RANGE.reach0",
+		reach1: "AC2D20.RANGE.reach1",
+		reach2: "AC2D20.RANGE.reach2",
+		reach3: "AC2D20.RANGE.reach3",
 		close: "AC2D20.RANGE.close",
 		medium: "AC2D20.RANGE.medium",
 		long: "AC2D20.RANGE.long",
@@ -116,9 +114,9 @@ AC2D20.WEAPONS = {
 };
 
 AC2D20.spellcastingTypes = {
-	traditional: "traditional",
-	researcher: "researcher",
-	dabbler: "dabbler",
+	traditional: "Traditional",
+	research: "Research",
+	dabbling: "Dabbling",
 };
 
 export async function generateEnrichedTooltips() {
@@ -161,6 +159,7 @@ export async function generateEnrichedTooltips() {
 	}
 
 	// Weapon Qualities
+	CONFIG.AC2D20.WEAPON_QUALITY_HAS_RANK = {};
 	CONFIG.AC2D20.WEAPON_QUALITY_TOOLTIPS = {};
 	for (const key in CONFIG.AC2D20.WEAPON_QUALITIES) {
 		CONFIG.AC2D20.WEAPON_QUALITY_TOOLTIPS[key] = await textEditor.enrichHTML(
@@ -168,6 +167,7 @@ export async function generateEnrichedTooltips() {
 				`AC2D20.Tooltips.WeaponQuality.${key}`
 			)
 		);
+		CONFIG.AC2D20.WEAPON_QUALITY_HAS_RANK[key] = key.endsWith("_x");
 	}
 }
 

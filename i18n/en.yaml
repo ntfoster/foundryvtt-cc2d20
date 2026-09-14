@@ -113,6 +113,10 @@ AC2D20.RANGE.extreme: Extreme
 AC2D20.RANGE.long: Long
 AC2D20.RANGE.medium: Medium
 AC2D20.RANGE.reach: Reach
+AC2D20.RANGE.reach0: Reach 0
+AC2D20.RANGE.reach1: Reach 1
+AC2D20.RANGE.reach2: Reach 2
+AC2D20.RANGE.reach3: Reach 3
 AC2D20.RESISTANCE.armor: Armor
 AC2D20.RESISTANCE.courage: Courage
 AC2D20.RESISTANCE.fatigue: Fatigue
@@ -137,6 +141,7 @@ AC2D20.SETTINGS.worldSchemaVersion.hint: Records the current schema version for 
 AC2D20.SETTINGS.worldSchemaVersion.label: Schema Version
 AC2D20.SKILL.ACADEMIA: Academia
 AC2D20.SKILL.ATHLETICS: Athletics
+AC2D20.SKILL.CRAFTING: Crafting
 AC2D20.SKILL.ENGINEERING: Engineering
 AC2D20.SKILL.FIGHTING: Fighting
 AC2D20.SKILL.MEDICINE: Medicine
@@ -181,7 +186,7 @@ AC2D20.TEMPLATES.Create_Special_Rule: Create Special Rule
 AC2D20.TEMPLATES.Create_Weapon: Create Weapon
 AC2D20.TEMPLATES.Culture: Culture
 AC2D20.TEMPLATES.current: current
-AC2D20.TEMPLATES.DAMAGE_EFFECTS: DAMAGE EFFECTS
+AC2D20.TEMPLATES.DAMAGE_EFFECTS: Damage Effects
 AC2D20.TEMPLATES.DAMAGE_TYPE: DAMAGE TYPE
 AC2D20.TEMPLATES.DAMAGE: DAMAGE
 AC2D20.TEMPLATES.Data: Data
@@ -296,7 +301,7 @@ AC2D20.TEMPLATES.Use_Will: Use Will
 AC2D20.TEMPLATES.Wealth: Wealth
 AC2D20.TEMPLATES.WealthCurrent: Current Wealth
 AC2D20.TEMPLATES.WealthRating: Wealth Rating
-AC2D20.TEMPLATES.Weapon_Qualities: WEAPON QUALITIES
+AC2D20.TEMPLATES.Weapon_Qualities: Weapon Qualities
 AC2D20.TEMPLATES.Weapon_Type: Weapon Type
 AC2D20.TEMPLATES.Weapons: Weapons
 AC2D20.Tooltips.ArmorQuality.heavy: Due to its size and weight, the armour counts as a major item even if it is worn.
@@ -454,6 +459,7 @@ AC2D20.WEAPONS.damageEffect.area: Area
 AC2D20.WEAPONS.damageEffect.backlash_x: Backlash
 AC2D20.WEAPONS.damageEffect.drain: Drain
 AC2D20.WEAPONS.damageEffect.intense: Intense
+AC2D20.WEAPONS.damageEffect.knockdown: Knockdown
 AC2D20.WEAPONS.damageEffect.persistent_x: Persistent
 AC2D20.WEAPONS.damageEffect.piercing_x: Piercing
 AC2D20.WEAPONS.damageEffect.snare: Snare
@@ -485,6 +491,10 @@ AC2D20.WEAPONS.weaponQuality.reliable: Reliable
 AC2D20.WEAPONS.weaponQuality.subtle: Subtle
 AC2D20.WEAPONS.weaponQuality.unreliable: Unreliable
 AC2D20.WEAPONS.weaponQuality.venomous: Venomous
+AC2D20.WEAPONS.weaponQuality.reload: Reload
+AC2D20.WEAPONS.weaponQuality.shield_x: Shield
+AC2D20.WEAPONS.weaponQuality.special: Special
+AC2D20.WEAPONS.weaponQuality.two_handed: Two-Handed
 AC2D20.WEAPONS.weaponTypes.agi: Melee
 AC2D20.WEAPONS.weaponTypes.coo: Ranged
 AC2D20.WEAPONS.weaponTypes.Melee: Melee

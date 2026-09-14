@@ -520,15 +520,6 @@ export default class ACActorSheet
 			});
 		});
 
-		// * AMMO COUNT UPDATE
-		html.find(".ammo-quantity").change(async ev => {
-			let newQuantity = parseInt($(ev.currentTarget).val());
-			const li = $(ev.currentTarget).parents(".item");
-			const item = this.actor.items.get(li.data("itemId"));
-			let updatedItem = { _id: item.id, system: { ammo: newQuantity } };
-			await this.actor.updateEmbeddedDocuments("Item", [updatedItem]);
-		});
-
 		// * RESOURCE COUNT
 		html.find(".resources-quantity").change(async ev => {
 			let newQuantity = parseInt($(ev.currentTarget).val());
