@@ -2,7 +2,7 @@
 	"id": "cc2d20",
 	"title": "Cohors Cthulhu 2d20",
 	"description": "An unofficial system for playing Cohors Cthulhu 2d20 from Modiphius Entertainment Ltd. Forked from https://github.com/Muttley/foundryvtt-cc2d20",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"compatibility": {
 		"minimum": "13",
 		"verified": "13"
