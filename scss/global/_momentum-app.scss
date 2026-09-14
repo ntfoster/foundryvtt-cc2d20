@@ -9,6 +9,10 @@
 	gap: 0.5rem;
 	pointer-events: all;
 
+	.align-mid {
+		justify-content: center;
+	}
+
 	.ap-resource {
 		border-radius: 9px;
 		font-family: $font-antique;
