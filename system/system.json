@@ -102,5 +102,7 @@
 	},
 	"socket": true,
 	"url": "https://github.com/ntfoster/foundryvtt-cc2d20",
+	"manifest": "https://github.com/ntfoster/foundryvtt-cc2d20/releases/latest/download/system.json",
+	"download": "https://github.com/ntfoster/foundryvtt-cc2d20/releases/latest/download/cc2d20.zip",
 	"background": "systems/cc2d20/assets/artwork/cohors-cthulhu-artwork.jpg"
 }
