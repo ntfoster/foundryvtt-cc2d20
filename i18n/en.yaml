@@ -324,6 +324,37 @@ AC2D20.Tooltips.DamageEffect.piercing_x: The attack ignores X resistance for eac
 AC2D20.Tooltips.DamageEffect.snare: The attack or hazard can entangle and bind the target. The target cannot take any actions other than to try and break free. It requires a skill test with a difficulty equal to the number of effects rolled to break free.
 AC2D20.Tooltips.DamageEffect.stun: The attack or hazard leaves the target momentarily unable to act. If a number of effects are rolled that equals or exceeds the target’s Resilience skill, the target may not take any actions in their next turn.
 AC2D20.Tooltips.DamageEffect.vicious: The attack or hazard is especially potent. Add +1 to the total stress inflicted for each effect rolled.
+AC2D20.Tooltips.Focus.philosophy: Philosophy encompasses the study of concepts that may underlie our perceived realities and fundamental truths, particular  viewpoints on these concepts, and the history of influential philosophers.
+AC2D20.Tooltips.Focus.religion: Religion constitutes the study of the gods; their manifesta­tions; and the practices, traditions, and creatures associated with them. (To use this focus to cast spells, a character must have a talent with the Spellcaster keyword.)
+AC2D20.Tooltips.Focus.armorsmithing: Armorsmithing covers the manufacture and repair of worn armor and the forging and smithing of its component parts.
+AC2D20.Tooltips.Focus.cooking: Cooking encompasses an ability to prepare meals, an understanding of how to use ingredients, and a knowledge of food preservation techniques.
+AC2D20.Tooltips.Focus.tailoring: Tailoring involves designing, fabricating, and altering garments, from simple tunics to heavier items for protec­tion against inclement weather, as well as leatherworking.
+AC2D20.Tooltips.Focus.weaponsmithing: Weaponsmithing incorporates the manufacture and repair of weaponry. It includes woodworking techniques for spears and bows as well as metalworking techniques for forging, shaping, and sharpening blades.
+AC2D20.Tooltips.Focus.defenses: Defenses covers the planning and construction of fortifica­tions like watchtowers, palisades, trenches, and barricades.
+AC2D20.Tooltips.Focus.demolition: Demolition involves an understanding of how to effec­tively destroy buildings, siege engines, and fortifications.
+AC2D20.Tooltips.Focus.infrastructure: Infrastructure encompasses the planning and construction of infrastructure such as roads, aqueducts, and bridges.
+AC2D20.Tooltips.Focus.siege-engines: Siege Engines covers the planning and construction of weaponry and tools required to perform a siege, such as siege towers, ladders, onagers, and ballistae.
+AC2D20.Tooltips.Focus.archery: Archery involves the use and maintenance of bows and more modern arms like the arcuballista.
+AC2D20.Tooltips.Focus.thrown-weapons: Thrown Weapons covers the use of thrown weapons like javelins, throwing axes, and plumbatae (lead-weighted darts), as well as weaponry like slings.
+AC2D20.Tooltips.Focus.unarmed: Unarmed encompasses a range of unarmed techniques for striking and grappling opponents, from the classical fighting art pankration, to fisticuffs, to simple brawling.
+AC2D20.Tooltips.Focus.war-magic: War Magic covers the casting of direct, damaging spells during the heat of combat. (To use this focus to cast spells, a character must have a talent with the Spellcaster keyword.)
+AC2D20.Tooltips.Focus.contagion: Contagion involves an understanding of diseases, their causes, the way they spread, their symptoms, and the ways in which they can be treated.
+AC2D20.Tooltips.Focus.faith-healing: Faith Healing covers the rites, rituals, and appropriate offerings and practices for petitioning the gods (or other supernatural beings) to intercede on behalf of the sick or injured. (To use this focus to cast spells, a character must have a talent with the Spellcaster keyword.)
+AC2D20.Tooltips.Focus.field-treatment: Field Treatment includes knowledge of how to quickly stanch bleeding and dress wounds in the field, which can keep the injured alive long enough to receive more compre­hensive treatment.
+AC2D20.Tooltips.Focus.pharmacia: Pharmacia incorporates knowledge of naturally derived drugs, medicines, and toxins. A character with the Pharmacia focus knows how to manufacture such substances, can identify the common symptoms they cause, and is experienced in ways to counteract them.
+AC2D20.Tooltips.Focus.deception: Deception incorporates methods of manipulating others to believe untruths.
+AC2D20.Tooltips.Focus.concealment: Concealment is the ability to hide oneself, others, or objects so they will not be detected.
+AC2D20.Tooltips.Focus.escape-artistry: Escape Artistry constitutes the ability to free oneself from restraints.
+AC2D20.Tooltips.Focus.lock-picking: Lock Picking lets a character overcome mechanical locks using picks and a torsion bar.
+AC2D20.Tooltips.Focus.sleight-of-hand: Sleight of Hand incorporates techniques for pilfering objects worn or carried by others, as well as for making objects in hand vanish from sight.
+AC2D20.Tooltips.Focus.sneak: Sneak involves moving in a hidden manner and avoiding detection.
+AC2D20.Tooltips.Focus.boating: Boating covers the fundamental skills required to pilot, skipper, or crew a riverboat or other freshwater vessel.
+AC2D20.Tooltips.Focus.navigation: Navigation lets a character navigate over a distance, maintain a direction, plan a route, and endure the physical demands of overland travel.
+AC2D20.Tooltips.Focus.woodcraft: Woodcraft incorporates skills for wilderness living, including, but not limited to, the ability to construct shelter and camp facilities from local natural materials.
+AC2D20.Tooltips.Focus.cavalry: Cavalry covers familiarity with military strategy and tactics for mounted troops.
+AC2D20.Tooltips.Focus.infantry: Infantry covers familiarity with military strategy and infantry tactics.
+AC2D20.Tooltips.Focus.omen-reading: Omen Reading covers the practice of reading signs in the natural world and using them to interpret the future. Countless undertakings are preceded by a reading of omens. (To use this focus to cast spells, a character must have a talent with the Spellcaster keyword.)
+AC2D20.Tooltips.Focus.scouting: Scouting involves organizing a team to operate quietly and efficiently to stage ambushes, scout out enemy positions, or perform stealthy operations in enemy territory.
 AC2D20.Tooltips.Focus.air-force: Air Force — covers training in fighter and bomber tactics, such as dogfighting, formation flying and navigation, as well as aerial military strategy.
 AC2D20.Tooltips.Focus.aircraft: Aircraft — covers the operation of civilian and military aircraft, both single-engine and multi-engine, propeller-driven planes. Towards the end of the conflict, it also encompasses newer jet engine planes and technology.
 AC2D20.Tooltips.Focus.animal-handling: Animal Handling — covers knowledge about a range of different animals, how they behave, how to act around them, as well as how to train and command them.
@@ -428,6 +459,7 @@ AC2D20.Tooltips.WeaponQuality.munition: The ammunition for this weapon is especi
 AC2D20.Tooltips.WeaponQuality.parrying: When the weapon’s wielder makes an opposed test in defence of a melee attack, they may reroll a single d20 on their test. This does not stack if the character has multiple Parrying weapons.
 AC2D20.Tooltips.WeaponQuality.precise: Attacks with this weapon use Coordination rather than any other attribute when generating additional @s.
 AC2D20.Tooltips.WeaponQuality.reliable: You may ignore the first complication rolled using this weapon in an action scene.
+AC2D20.Tooltips.WeaponQuality.shield_x: When targeted by a melee attack, a character with a shield treats their Reach as X, rather than as the shield’s normal Reach. In addition, while the character has Guard, they gain +X Cover resistance.
 AC2D20.Tooltips.WeaponQuality.subtle: Attacks with this weapon are difficult to hear, requiring a difficulty 2 <strong>Insight + Observation</strong> test to notice. The GM may adjust this difficulty based on distance and ambient noise.
 AC2D20.Tooltips.WeaponQuality.unreliable: Attacks with this weapon increase the test’s complication range by 1.
 AC2D20.Tooltips.WeaponQuality.venomous: "An Ophidian weapon with the Venomous trait which rolls one or more effects on damage will inflict the Poisoned truth on the target (or the Poisoned: Ophidian Toxins truth p.79). They will suffer Persistent 1 damage with a Piercing 2 effect every turn until cured. Due to the technology involved in their creation, Ophidian Venomous Weapons have a distinctive red flash when they fire, making them easy to spot and revealing the shooter’s location."
