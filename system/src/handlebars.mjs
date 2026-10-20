@@ -111,6 +111,7 @@ export const registerHandlebarsHelpers = function() {
 			if (!effect.value) continue;
 
 			let qualityName = CONFIG.AC2D20.WEAPON_QUALITIES[key];
+			if (effect.rank > 0) qualityName += ` ${effect.rank}`;
 
 			const tooltip = CONFIG.AC2D20.WEAPON_QUALITY_TOOLTIPS[key];
 
